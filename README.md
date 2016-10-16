@@ -1,28 +1,31 @@
-# Chapter 3
-## Enhancing our component interactivity and layout
+# Videotutorial Nº 17 del Curso de Angular 2
+## Uso de propiedades Input y Output
 
-Now that we’re familiar with the basic form and shape of an Angular component and the syntax that helps define it, we can go a step further and make them more expressive by means of property and event binding. For doing so we will take a comprehensive look on the Angular 2 template syntax, the component input and output endpoints and how data and behaviors are handled between the template and the component class.
+Ahora que ya nos hemos familiarizado con los usos de TypeScript y lo básico de componentes, seguimos ampliando la aplicación mediante el uso de propiedades Input y Output.
 
-## Installation
 
-Clone the repository, move to the folder containing the source file for this chapter and install the NPM dependencies by executing the following:
+
+## Instalación
+
+Para Clonar el repositorio, nos situamos en el directorio donde queremos crearlo e instalamos las dependencias NPM ejecutando:
+
 
 ```bash
-$ git clone https://github.com/deeleman/learning-angular2.git
-$ cd learning-angular2/chapter_03
+$ git clone https://github.com/0utKast/vt17ca2.git
+$ cd vt17ca2
 $ npm install
 ```
 
-An `npm postinstall` hook will manage the installation of the typings required for compiling the project. You can run `npm start` once finished to trigger the TypeScript transpiling and fire a local server in your machine already pointing to the chapter folder.
+npm se encargará de instalar las dependencias para poder compilar el proyecto. Puedes ejecutar `npm start` una vez finalizado para llevar a cabo la transpilación TypeScript y activar el servidor local apuntando ya al directorio del proyecto
 
-## Topics covered
 
-We will go through the process of building complex templates, either inline or wrapped in views files. For doing so we will create a new component from scratch and build up on top of it. Then we will review how property binding is handled compared to the traditional JavaScript attribute value bindings. We will slightly overview event binding as well with short real examples of interactive behaviors.
 
-## Skills learned
+## Temas vistos
 
-* Template syntax.
-* Property binding.
-* Event binding.
-* Built-in pipes.
-* Built-in directives.
+Empezamos la construcción de plantillas, partiendo del componente ya creado e introducciendo inputs y outputs entre componente como primer paso.
+
+## Habilidades aprendidas
+
+* Enlace de Propiedades.
+* Enlace de Eventos.
+* Directivas Preconstruidas.
